@@ -53,15 +53,15 @@
     {
       "id": 3,
       "address": "7346 Ritchie Road",
-      "phoneNumber": "(507) 720-1157",
+      "phoneNumber": "(507) 720-2157",
       "userId": 3
     }
   ],
   "employees": [
     {
       "id": 1,
-      "specialty": "PC Repair",
-      "rate": 72.47,
+      "specialty": "PC Repair and Mac Repairs",
+      "rate": 74,
       "userId": 4
     },
     {
@@ -89,7 +89,7 @@
       "id": 2,
       "userId": 3,
       "description": "Vero est adipisci sed natus quasi consectetur occaecati. Modi maxime sunt officia cumque. Vel at culpa. Sint accusamus deserunt dolorem qui.",
-      "emergency": true,
+      "emergency": false,
       "dateCompleted": ""
     },
     {
@@ -136,6 +136,16 @@
       "id": 3,
       "employeeId": 1,
       "serviceTicketId": 4
+    },
+    {
+      "employeeId": 1,
+      "serviceTicketId": 2,
+      "id": 4
+    },
+    {
+      "employeeId": 1,
+      "serviceTicketId": 6,
+      "id": 5
     }
   ]
 }
